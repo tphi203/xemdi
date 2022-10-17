@@ -1,0 +1,349 @@
+#banner{
+    background: url(../img/banner.gif);
+    max-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 260px 50px;
+    margin-top: -23px;
+    
+}
+#banner{
+    font-size: 150px;
+    font-weight: 600;
+    color: #e0e721;
+    font-family:'Great Vibes', cursive;
+    text-align: center;
+}
+
+main .buy{
+    background: #e0e721;
+    transition: .5s;
+}
+main .buy:hover{
+    border-radius: 40%;
+}
+.container .diachi{
+    display: flex;
+    justify-content:center ;
+    
+}
+
+h1.helo{
+    color: #1b273d;
+    font-weight: 900;
+    font-family: Bevan, Poppins,sans-serif;
+ 
+}
+p.chaomung {
+    color: #ec398b;
+    font-family: Oswald,sans-serif;
+}
+#introduce .container .diachi .left{
+    flex: calc(100% / 2);
+}
+.introduce1 {
+    padding: 96px 94px;
+}
+.left h1{
+    color: #554bb9;
+    width: 110px;
+    height: 110px;
+    border: 8px solid #ddd;
+    text-align: right;
+    border-radius: 16px;
+    line-height: 100px;
+    font-family: Oswald,sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.container .right{
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 10px;
+}
+.right .thoigian{
+    color: #1b273d;
+    font-weight: 700;
+    font-size: 13px;
+}
+.container .phieu{
+    color: rgba(50,51,51,.8);
+    font-family: Poppins,sans-serif;
+}
+#slide .carousel-item .img_slide{
+    display: flex;
+}
+#slide .carousel-item img{
+    width: calc(100% / 3);
+    
+}
+#slide .list_singer{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+#slide .list_singer h1.who{
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+}
+.carousel-indicators{
+    top: 100%;
+}
+#product_list{
+    background: #554bb9;
+    padding: 40px 0;
+}
+#product_list .product{
+    width: 100%;
+    height: 100%;
+    padding: 25px 0px;
+   
+}
+#product_list .img_product img{
+    width: 100px;
+}
+#product_list .name_product{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+#product_list .box:hover .name_product{
+    color: rgb(85, 75, 185);
+
+}
+#product_list .price_product{
+    color: #efa506;
+    font-size: 25px;
+    font-weight: 900;
+}
+#product_list .buy_product{
+    color: rgb(255, 255, 255);
+    background: rgb(236, 57, 139);
+}
+#product_list .buy_product:hover{
+    color: rgb(74, 37, 170);
+    background: rgb(224, 231, 33);
+    border-radius: 40px;
+}
+#product_list .box{
+    overflow: hidden;
+    transition: .5s;
+    z-index: 1;
+}
+#product_list .box:hover{
+    background: #fff;
+}
+#product_list .box:hover .product{
+   animation: product 0.5s linear 
+}
+.row{
+    padding: 40px 47px;
+
+}
+@keyframes product{
+    0%{
+
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+#product_list .dau::before {
+    content: ' ';
+    background: url(../img/dots2.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform:translate(-115px,295px) rotate(45deg);
+}
+#product_list .dau2::before {
+    content: ' ';
+    background: url(../img/dots2.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform:translate(-167px,191px) rotate(45deg);
+}
+
+
+.drakshow{
+    width: 100%;
+   
+    background: #1f2538;
+    text-align: center;
+    color: #eee;
+    padding: 60px;
+}
+.drakshow .title{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 80px;
+    width: 100%;
+}
+.drakshow .img{
+    width: 50%;
+   
+}
+.content{
+    display: flex;
+}
+/* .drakshow.active .img{
+    animation: showimgdrakshow 1s ease-in-out 1s 1 forwards;
+    opacity: 0;
+} */
+/* @keyframes showimgdrakshow{
+    from{
+        opacity: 0;
+        filter: blur(33px);
+        transform: translate(150px);
+    }
+    to{
+        opacity: 1;
+        filter: blur(0px);
+        transform: translate(0);
+    }
+} */
+.drakshow .img img{
+    width: 50%;
+    height: 494px;
+    object-fit: cover;
+}
+.drakshow .list{
+    width: 50%;
+}
+.contactItem{
+    width: 41%;
+    background-color: #161924;
+    padding: 40px 5%;
+    margin: 0 2% 2% 0;
+    float: left;
+    text-align: left;
+}
+
+.contactItem .icon1,.contactItem .icon2,.contactItem .icon3,.contactItem .icon4{
+    width: max-content;
+    background-color: #1877f2;
+    padding: 2px 10px;
+    font-size: small;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contactItem .icon2{
+    background:linear-gradient(to right,#c71eb6,#e23816);
+}
+.contactItem .icon3{
+    background: linear-gradient(30deg,rgb(66, 232, 234),rgb(22, 22, 22),rgb(243, 92, 92));
+
+}
+.contactItem .icon4{
+    background-color: red;
+}
+.contactItem .titleContact{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.slug a{
+    text-decoration: none;
+    color: #555;
+}
+.slug:hover a{
+    color: #eee;}
+
+
+
+
+
+
+
+@media screen and (max-width:1400px){
+        .contactItem .titleContact {
+        font-size: 15px;}
+        .slug a {
+           
+            font-size: 11px;
+        }
+        .contactItem .titleContact {
+            font-size: 18px;}
+    }
+@media screen and (max-width:1100px) {
+    #banner .time p:nth-child(1){
+        font-size: 50px;
+        line-height: 20px;
+    }
+    #banner .time{
+        padding: 0px 20px;
+    }
+    a.navbar-brand {
+        width: 20%;
+    }
+    
+    .drakshow .list{
+        width: 100%;
+    }
+    .drakshow .img {
+        width: 100%;
+    }
+    .drakshow .img img{
+        width: 100%;
+    }
+    .contactItem {
+        width: 48%;}
+    
+    
+}
+@media screen and (max-width:400px) {
+    #banner .time p:nth-child(1){
+        font-size: 20px;
+        line-height: 15px;
+    }
+    #banner .time{
+        padding: 0px 0px;
+    }
+    #banner .time p:nth-child(2) {
+        padding: 0 6px;
+        font-size: 14px;
+    }
+    #slide .list_singer h1.who { font-size: 16px; }
+    .introduce1 {padding: 48px 10px;}
+    #slide .list_singer { padding: 50px 4px;}
+    .row {
+        padding: 0px;
+    }
+    #banner {
+        font-size: 100px;}
+        /* .slug a {
+            font-size: 10px;
+        } */
+        .slug a {
+           
+            font-size: 13px;
+        }
+        .contactItem {
+            width: 100%;
+            margin-left: 10px;
+        }
+        .contactItem .titleContact {
+            font-size: 25px;}
+        
+}

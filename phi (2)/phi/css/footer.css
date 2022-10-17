@@ -1,0 +1,90 @@
+.footer{
+    background: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+footer .img_footer{
+    width: 100%;
+}
+.fotter_phi {
+    background: rgba(85,75,185,.95);
+}
+.ngang{
+    border: 0.5px solid #fff;
+    margin-bottom: 15px;
+}
+
+.icon a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display:inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+    color: #4893ac;
+    background: #c4c4c4;
+    font-size: 25px;
+
+}
+.icon a:hover{
+   background: orange;
+    color: #fff;
+}
+.concert,.social{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.time_footer{
+    color: #efa506;
+    font-size: 13px;
+    font-weight: 400;
+}
+.diachi_footer,.update_footer{
+    color: inherit;
+    font-size: 15px;
+    opacity: .8;
+}
+.author{
+    color: orange;
+}
+a.brand{
+    font-size: 95px;
+    font-weight: 600;
+    color: #e0e721;
+    font-family:'Great Vibes', cursive;
+    text-decoration: none;
+}
+
+.icon a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display:inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    transition: 0.5s;
+    color: #eee;
+    background: transparent;
+    font-size: 25px;
+
+}
+.icon a:hover{
+    transform: translateY(-7px);
+    background: linear-gradient(58deg,#1e4d92,#00c6a7);
+    color: #fff;
+    box-shadow: 0px 6px 7px #464444;
+}
+@media screen and (max-width:1000px) {
+    a.brand {
+        font-size: 47px;}
+}
+@media (min-width:1010px) and (max-width:1400px) {
+    a.brand {
+        font-size: 69px;}
+}
+
+

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .navbar{
+    background: rgba(27, 39, 61, .95);
+    padding: 18px;
+}
+header .navbar ul li a{
+    color: #fff;
+}
+header .navbar .navbar-toggler{
+    background: #554bb9;
+    outline: none;
+    border: none;
+    transition: .5s;
+}
+header .navbar .navbar-toggler:hover{
+    border-radius: 40%;
+}
+header .navbar .buy{
+    background: #e0e721;
+    transition: .5s;
+}
+header .navbar .buy:hover{
+    border-radius: 40px;
+}
+.container a.navbar-brand {
+    font-size: 50px;
+    color: #e0e721;
+    font-family:'Great Vibes', cursive;
+
+}
+header .navbar img{
+   width: 100%;
+}
+.menu{
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+
